@@ -1,0 +1,17 @@
+.form-builder {
+  width: 100%;
+
+  padding: 16px;
+  .form-builder-action-buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-left: 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .form-builder {
+    width: 50%;
+  }
+}

@@ -1,0 +1,37 @@
+.form-renderer {
+  padding: 16px;
+  width: 100%;
+
+  .form-element {
+    margin-bottom: 10px;
+  }
+
+  .selectElement {
+    width: 200px;
+  }
+
+  .error {
+    margin-top: 4px;
+    color: red;
+    font-size: 12px;
+  }
+
+  .input-renderer {
+    width: 70%;
+    margin: 10px 0;
+  }
+
+  .question-label {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+}
+
+@media (min-width: 768px) {
+  .form-renderer {
+    width: 50%;
+  }
+}

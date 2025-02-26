@@ -1,0 +1,122 @@
+.question {
+  min-height: 50px;
+  border: 1px solid #e6e6e6;
+  padding: 7px 16px 16px;
+  margin: 7px;
+  border-radius: 4px;
+
+  .question-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    align-items: center;
+
+    & .question-label-input {
+      margin-top: 8px;
+      width: 70%;
+      height: 40px;
+    }
+
+    .question-header-action {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .header-label {
+      font-family: "Inter", sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 500;
+    }
+
+    & .delete-button {
+      cursor: pointer;
+    }
+  }
+
+  .question-helper-text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & .question-helper-input {
+      width: 50%;
+    }
+  }
+
+  .question-type {
+    margin-top: 8px;
+    width: 100%;
+
+    & .select {
+      width: 50%;
+    }
+  }
+
+  .validations {
+    margin-top: 8px;
+
+    & .validation {
+      margin-top: 10px;
+
+      .typeSelect {
+        width: 100px;
+      }
+      .valueInput,
+      .messageInput,
+      .numberInput {
+        width: 200px;
+      }
+    }
+    .validation-elements {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .validation-action-buttons {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      & > button {
+        width: 30px;
+        height: 30px;
+      }
+    }
+    .validation-error {
+      margin-top: 10px;
+    }
+  }
+
+  .select-options {
+    padding-left: 10px;
+
+    & .select-option {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      margin: 4px 0;
+    }
+  }
+
+  .label {
+    font-family: "Inter";
+    font-size: 14px;
+    margin: 4px;
+  }
+
+  .error {
+    margin-bottom: 4px;
+    color: red;
+    font-size: 12px;
+  }
+  .add-option-button {
+    margin: 4px 0;
+  }
+  .add-validation-button {
+    margin-top: 10px;
+  }
+}
